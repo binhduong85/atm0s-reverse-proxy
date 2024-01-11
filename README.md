@@ -27,7 +27,7 @@ If you find it interesting or believe it could be helpful, we welcome your contr
 
 ## Performance
 
-Bellow is benchmarking results with Mac M1, and all nodes is running localy, it it very early version so it can be improve after finish all features:
+Below are benchmarking results with Mac M1, and all nodes are running locally. It is a very early version, so it can be improved after finishing all the features:
 
 - Direct http
 
@@ -122,7 +122,7 @@ To get started with the Decentralized HomeAssistant Proxy, follow these steps:
         --http-dest 127.0.0.1:8080 \
         --https-dest 127.0.0.1:8443
     ```
-    Client will print out assigned domain like: `a5fae3d220cb062c5aed9bd57d82f226.local.ha.8xff.io`, now we can access to local 8080 service with address:
+    Client will print out assigned domain like: `a5fae3d220cb062c5aed9bd57d82f226.local.ha.8xff.io`. Now we can access local 8080 service with address:
 
     - Proxy over single node1:
     http://a5fae3d220cb062c5aed9bd57d82f226.local.ha.8xff.io:11001
@@ -130,7 +130,7 @@ To get started with the Decentralized HomeAssistant Proxy, follow these steps:
     - Proxy with relay over node2 -> node1:
     http://a5fae3d220cb062c5aed9bd57d82f226.local.ha.8xff.io:11002
 
-    Note that above url only can access in same machine.
+    Note that the above url only can access in same machine.
 
 ## Contributing
 
